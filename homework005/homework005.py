@@ -23,3 +23,14 @@ for i in range(len(numbers)):
     numbers[random_num] = temp
 
 print(numbers)
+
+# ВТОРОЙ ВАРИАНТ РЕШЕНИЯ(БЕЗ ИСПОЛЬЗОВАНИЯ 3ЕЙ ПЕРЕМЕННОЙ)
+# N = int(input('введите размер списка = '))
+
+# list = list(range(0,N))
+
+# for el in range(0,N):
+#     i = random.randint(0, N-1)
+#     list[i], list[el] = list[el], list[i]
+
+# print(f"{list}")
