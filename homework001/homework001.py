@@ -11,8 +11,9 @@ num1 = float(input('Enter a real number: '))
 
 
 def Sum(num1):    # функция нахождения суммы цифр числа(через перевод в str ТД)
-    if num1 < 0:
-        num1 *= -1
+    # if num1 < 0:
+    #     num1 *= -1
+    num1 = abs(num1)  # добавил функцию для взяти модуля числа
     num2 = 0
 
     for i in str(num1):
